@@ -14,8 +14,7 @@ export default class GuestNavigation extends React.Component {
 
   render() {
       return(
-          <LoggedOut.Navigator initialRouteName={'Introduction'} screenOptions={{ gestureEnabled: false }}>
-              <LoggedOut.Screen name="Introduction"     component={IntroductionScreen}  options={{ headerShown: false }} />
+          <LoggedOut.Navigator initialRouteName={'Register'} screenOptions={{ gestureEnabled: false }}>
               <LoggedOut.Screen name="Login"            component={LoginScreen}         options={{ headerShown: false }} />
               <LoggedOut.Screen name="Register"         component={RegisterScreen}      options={{ headerShown: false }} />
               <LoggedOut.Screen name="Forgot"           component={ForgotScreen}        options={{ headerShown: false }} />
